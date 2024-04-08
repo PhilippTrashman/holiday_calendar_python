@@ -1,0 +1,59 @@
+{
+    "feiertage": [
+        {
+          "Datum": "01.01.2024",
+          "Tag": "Mo.",
+          "Feiertag": "Neujahr"
+        },
+        {
+          "Datum": "29.03.2024",
+          "Tag": "Fr.",
+          "Feiertag": "Karfreitag"
+        },
+        {
+          "Datum": "01.04.2024",
+          "Tag": "Mo.",
+          "Feiertag": "Ostermontag"
+        },
+        {
+          "Datum": "01.05.2024",
+          "Tag": "Mi.",
+          "Feiertag": "Maifeiertag"
+        },
+        {
+          "Datum": "09.05.2024",
+          "Tag": "Do.",
+          "Feiertag": "Christi Himmelfahrt"
+        },
+        {
+          "Datum": "20.05.2024",
+          "Tag": "Mo.",
+          "Feiertag": "Pfingstmontag"
+        },
+        {
+          "Datum": "30.05.2024",
+          "Tag": "Do.",
+          "Feiertag": "Fronleichnam"
+        },
+        {
+          "Datum": "03.10.2024",
+          "Tag": "Do.",
+          "Feiertag": "Tag der Deutschen Einheit"
+        },
+        {
+          "Datum": "01.11.2024",
+          "Tag": "Fr.",
+          "Feiertag": "Allerheiligen"
+        },
+        {
+          "Datum": "25.12.2024",
+          "Tag": "Mi.",
+          "Feiertag": "1. Weihnachtstag"
+        },
+        {
+          "Datum": "26.12.2024",
+          "Tag": "Do.",
+          "Feiertag": "2. Weihnachtstag"
+        }
+      ]
+    }
