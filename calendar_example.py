@@ -7,15 +7,14 @@ def show_holiday_calendar(filepath: str, year_number: int):
     month_list = ["January", "February", "March", "April", "May", "Juni", "Juli", "August", "September", "October", "November", "December"]
     month_index = 0
 
-    with open(filepath, 'r') as f:
+    with open(filepath, 'r', encoding="utf-8") as f:
         d = json.load(f)['feiertage']
         holidays = {}
         for item in d:
             holidays[item["Datum"].replace(".", "-")] = item["Feiertag"]
-        f.close()
 
     for year in years:
-        year_str = ""
+        year_str = f"{year_number} \n \n"
         for month in year:
             month_str = month_list[month_index] + "\n"
             month_str += "Mo Tu We Th Fr Sa Su \n"
@@ -42,7 +41,7 @@ def show_holiday_calendar(filepath: str, year_number: int):
             year_str += month_str + "\n"
             month_index += 1
 
-    with open("holiday_calendar.txt", "w") as f:
+    with open("holiday_calendar.txt", "w", encoding='utf-8') as f:
         f.write(year_str)
         f.close()
 
